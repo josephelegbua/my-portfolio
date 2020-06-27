@@ -6,6 +6,130 @@
 
 body{
     font-family:'Karla', sans-serif;
-    background-color: #000;
-    color: #f9f9f9;
+    background-color: #f9f9f9;
+    color: #000;
 }
+
+a{
+    font-family: 'Karla', sans-serif;
+}
+
+.main-container{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    padding: 18px 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #F2B636;
+}
+
+nav{
+    position: absolute;
+    left: 800px;
+    top: 40px;
+}
+
+header h1{
+    font-size: 23px;
+    padding:37px 0 0 80px;
+}
+
+span{
+    color: #F2B636;
+}
+
+.hero-container{
+    display: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.hero-container h2{
+    font-size: 40px;
+    padding: 180px 0 0 80px;
+    font-weight: 400;
+}
+
+.hero-container p{
+    font-size: 17px;
+    padding: 10px 0 0 80px;
+    font-weight: 400;
+    color:#F2B636;
+}
+
+button{
+  background-color: black;
+  border: 2px solid #F2B636;
+  width: 120px;
+  padding: 5px 25px 5px 25px;
+}
+
+#services-btn{
+    margin-left: 20px;
+}
+
+.hero-btns a{
+    text-decoration: none;
+    color: #F2B636;
+    font-family: ;
+}
+
+.hero-btns{
+    padding: 35px 0 80px 80px;
+}
+
+.project-container{
+    width: 100%;
+    overflow: hidden;
+}
+
+.projects-container p{
+    font-size: 25px;
+    border-bottom: 3px solid #F2B636;
+    width: fit-content;
+    font-weight: 400;
+}
+
+.project-boxes ul{
+    margin: 0;
+    padding: 0;
+}
+
+.project-boxes img{
+    display: flex;
+}
+
+@media (max-width: 767px){
+    header h1{
+        font-size: 20px;
+        text-align: center;
+        margin: 0;
+        padding: 30px;
+    }
+
+    .hero-container h2{
+        margin: 0;
+        padding: 30px;
+        font-size: 26px;
+        font-weight: 400;
+        text-align: center;
+    }
+}
+
