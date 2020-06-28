@@ -193,3 +193,21 @@ footer a{
     text-decoration: none;
     color: #F2B636;
 }
+
+
+@media (max-width: 767px){
+    header #logo, header nav, header nav li, #projects-box .p-box, #projects-box-2 .p-box-2, 
+    #services-box .s-box-1, #services-box-2 .s-box-2, #contact-box .c-box-1, #contact-box .c-box-2{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header nav li{
+        padding: 0 5px 0 5px;
+    }
+
+    footer li{
+        padding: 10px;
+    }
+}
