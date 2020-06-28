@@ -6,130 +6,89 @@
 
 body{
     font-family:'Karla', sans-serif;
-    background-color: #f9f9f9;
-    color: #000;
+    background-color: #000;
+    color: #fff;
 }
 
-a{
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding-top: 30px;
+    min-height: 70px;
+}
+
+header a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #F2B636;
+}
+
+header li{
+    display: inline;
+    float: left;
+    padding: 0px 20px 0 20px;
+}
+
+header #logo{
+    float: left;
+}
+
+header #logo h1{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.logo-highlight{
+    color:#F2B636;
+}
+header nav{
+    float: right;
+    padding-top: 10px;
+}
+
+#hero-heading{
+    min-height: 400px;
+}
+
+#hero-heading h2{
+    margin: 200px 0 12px 0;
+    font-size: 45px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+}
+
+#hero-heading p{
+    color: #F2B636;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    font-size: 17px;
+    padding-bottom: 30px;
+}
+
+#hero-heading .btn-1, .btn-2{
+    height: 30px;
+    background-color: inherit;
+    border: 2px solid #F2B636;
+    color: #F2B636;
+    padding: 0 30px 0 30px;
+    border-radius: 1px;
+}
+
+#hero-heading a{
+    text-decoration: none;
+    color: #F2B636;
     font-family: 'Karla', sans-serif;
 }
 
-.main-container{
-    background-color: #000;
-    color: #fff;
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
-    position: relative;
-}
-
-nav ul{
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-nav li{
-    list-style: none;
-    display: inline;
-    padding: 18px 20px;
-}
-
-nav a{
-    text-decoration: none;
-    color: #F2B636;
-}
-
-nav{
-    position: absolute;
-    left: 800px;
-    top: 40px;
-}
-
-header h1{
-    font-size: 23px;
-    padding:37px 0 0 80px;
-}
-
-span{
-    color: #F2B636;
-}
-
-.hero-container{
-    display: 80%;
-    margin: auto;
-    overflow: hidden;
-}
-
-.hero-container h2{
-    font-size: 40px;
-    padding: 180px 0 0 80px;
-    font-weight: 400;
-}
-
-.hero-container p{
-    font-size: 17px;
-    padding: 10px 0 0 80px;
-    font-weight: 400;
-    color:#F2B636;
-}
-
-button{
-  background-color: black;
-  border: 2px solid #F2B636;
-  width: 120px;
-  padding: 5px 25px 5px 25px;
-}
-
-#services-btn{
+.btn-2{
     margin-left: 20px;
 }
-
-.hero-btns a{
-    text-decoration: none;
-    color: #F2B636;
-    font-family: ;
-}
-
-.hero-btns{
-    padding: 35px 0 80px 80px;
-}
-
-.project-container{
-    width: 100%;
-    overflow: hidden;
-}
-
-.projects-container p{
-    font-size: 25px;
-    border-bottom: 3px solid #F2B636;
-    width: fit-content;
-    font-weight: 400;
-}
-
-.project-boxes ul{
-    margin: 0;
-    padding: 0;
-}
-
-.project-boxes img{
-    display: flex;
-}
-
-@media (max-width: 767px){
-    header h1{
-        font-size: 20px;
-        text-align: center;
-        margin: 0;
-        padding: 30px;
-    }
-
-    .hero-container h2{
-        margin: 0;
-        padding: 30px;
-        font-size: 26px;
-        font-weight: 400;
-        text-align: center;
-    }
-}
-
