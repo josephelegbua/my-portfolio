@@ -87,8 +87,109 @@ header nav{
     text-decoration: none;
     color: #F2B636;
     font-family: 'Karla', sans-serif;
+    font-size: 14px;
 }
 
 .btn-2{
     margin-left: 20px;
+}
+
+#sub-lead-heading{
+    margin-top: 100px;
+}
+
+#sub-lead-heading p{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#projects-box{
+    margin-top: 40px;
+}
+
+#projects-box .p-box{
+    float: left;
+    width: 30%;
+    text-align: left;
+}
+
+#projects-box img{
+    width: 350px;
+    border-radius: 1px;
+}
+
+#projects-box-2{
+    margin-top: 60px;
+}
+
+#projects-box-2 .p-box-2{
+    float: left;
+    width: 30%;
+    text-align: left;
+}
+
+#projects-box-2 img{
+    width: 350px;
+    border-radius: 1px;
+}
+
+#services-box{
+    margin-top: 40px;
+}
+
+#services-box .s-box-1{
+    float: left;
+    width: 30%;
+}
+
+#services-box-2{
+    margin-top: 40px;
+}
+
+#services-box-2 .s-box-2{
+    float: left;
+    width: 30%;
+}
+
+#end-lead-sub-heading{
+    margin-top: 150px;
+}
+
+#contact-box{
+    margin-top: 20px;
+}
+
+#contact-box .c-box-1{
+    float: left;
+    width: 25%;
+}
+
+#contact-box h2{
+    color: #F2B636;
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+
+#contact-box a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+}
+
+footer p{
+    padding-bottom: 20px;
+}
+
+footer li{
+    display: inline;
+    padding: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #F2B636;
 }
