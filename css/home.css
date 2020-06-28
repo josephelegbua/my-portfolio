@@ -94,11 +94,20 @@ header nav{
     margin-left: 20px;
 }
 
-#sub-lead-heading{
+#sub-lead-heading-projects{
     margin-top: 100px;
 }
 
-#sub-lead-heading p{
+#sub-lead-heading-services{
+    margin-top: 100px;
+}
+
+#sub-lead-heading-projects p{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#sub-lead-heading-services p{
     font-size: 22px;
     font-weight: 400;
 }
@@ -203,8 +212,34 @@ footer a{
         width: 100%;
     }
 
+    header #logo h1{
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: -5px;
+    }
+
     header nav li{
-        padding: 0 5px 0 5px;
+        padding: 0 10px 0 10px;
+    }
+
+    #hero-heading h2{
+        margin: 100px 0 10px 0;
+        font-size: 27px;
+        text-align: center;
+    }
+
+    #hero-heading p{
+        font-size: 15px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .btn-lead{
+        text-align: center;
+    }
+
+    #sub-lead-heading-projects{
+        margin-top: -100px;
     }
 
     footer li{
