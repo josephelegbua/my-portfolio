@@ -74,6 +74,14 @@ span{
     color: #fff;
 }
 
+footer p.footer-txt{
+    font-size:14px;
+}
+
+.fig{
+    width: 2%;
+}
+
 @media (max-width: 767px){
     header h1{
         font-size: 25px;
